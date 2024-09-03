@@ -91,3 +91,8 @@ var swiper = new Swiper(".review-slider", {
     },
     },
 });
+document.querySelectorAll(".btn").forEach((button) => {
+    button.onclick = () => {
+        alert("Hello, Welcome To Our Grocery Shop!");
+    }
+});
